@@ -1,0 +1,277 @@
+@media only screen and (max-width: 600px)
+{
+    /*fonts*/@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+     /*fonts*/@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@300&display=swap');
+
+
+
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+body{
+    background-image: url("./img/fundo.jpg");
+}
+.header{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+}
+
+
+#logo img{
+    left: 400px;
+    height: 150px;
+}
+
+#logo{
+    width: 30vw;
+    height: 200px;
+    left: 300px;
+}
+
+#textlogo{
+  
+   left: 100%;
+   padding-top: 50px;
+   font-family: 'Play', sans-serif;
+   font-size: 1.9rem;
+   font-weight: bold;
+
+    
+}
+
+
+#textcadastro{
+    width: 93%;
+ text-align: center;
+   padding-top: 70px;
+   font-family: 'Play', sans-serif;
+   font-size: 1.5rem;
+   color: #ffffff;
+   font-weight: bold;
+
+}
+
+.botaologin
+    {
+        height: 40px;
+        width: 60%;
+        background-color: #042138;
+        position: relative;
+        left: 85px;
+        top: 200px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .botaologin p{
+        position: relative;
+        top: 9px;
+      
+        font-size: 1.2rem;
+        color: #ffffff;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+        
+        
+    }
+    
+    a{
+       text-decoration: none;
+    }
+
+    .nome
+    {
+        height: 40px;
+        width: 60%;
+        background-color: #ffffff;
+        position: relative;
+        left: 85px;
+        top: 40px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .textonome
+    {
+        position: relative;
+        top: 9px;
+       left: 10px;
+        font-size: 1.0rem;
+        color: #6C6C6C;
+        font-weight: bold;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+        line-height: 24px;
+    }
+
+    .email
+    {
+        height: 40px;
+        width: 60%;
+        background-color: #ffffff;
+        position: relative;
+        left: 85px;
+        top: 140px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .textologin{
+        position: relative;
+        top: 9px;
+       left: 89px;
+        font-size: 1.0rem;
+        color: #6C6C6C;
+        font-weight: bold;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+        line-height: 24px;
+    }
+
+    .emailt
+    {
+        height: 40px;
+        width: 60%;
+        background-color: #ffffff;
+        position: relative;
+        left: 85px;
+        top: 20px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .textoemail{
+        position: relative;
+        top: 9px;
+       left: 10px;
+        font-size: 1.0rem;
+        color: #6C6C6C;
+        font-weight: bold;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+        line-height: 24px;
+    }
+
+.nasci{
+    height: 40px;
+        width: 60%;
+        background-color: #ffffff;
+        position: relative;
+        left: 85px;
+        top: 123px;
+        border-radius: 5px;
+        justify-content: center;
+}
+.textonasci{
+    position: relative;
+        top: 9px;
+       left: 10px;
+        font-size: 1.0rem;
+        color: #6C6C6C;
+        font-weight: bold;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+        line-height: 24px;
+    }
+
+.genero{
+    height: 40px;
+        width: 60%;
+        background-color: #ffffff;
+        position: relative;
+        left: 85px;
+        top: 110px;
+        border-radius: 5px;
+        justify-content: center;
+}
+
+.textogenero{
+    position: relative;
+        top: 9px;
+       left: 10px;
+        font-size: 1.0rem;
+        color: #6C6C6C;
+        font-weight: bold;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+        line-height: 24px;
+    }
+
+
+.senhatexto{
+    position: relative;
+        top: 9px;
+       left: 10px;
+        font-size: 1.0rem;
+        color: #6C6C6C;
+        font-weight: bold;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+       
+        line-height: 24px;
+}
+
+.confirma{
+    height: 40px;
+        width: 60%;
+        background-color: #ffffff;
+        position: relative;
+        left: 85px;
+        top: 170px;
+        border-radius: 5px;
+        justify-content: center;
+}
+
+.confirmatexto{
+    position: relative;
+        top: 9px;
+       left: 10px;
+        font-size: 1.0rem;
+        color: #6C6C6C;
+        font-weight: bold;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+        line-height: 24px;
+}
+
+.voltar{
+    height: 40px;
+        width: 18%;
+        background-color: #042138;
+        position: relative;
+        left: 85px;
+        top: 225px;
+        border-radius: 5px;
+        justify-content: center;
+
+}
+.voltartexto{
+    position: relative;
+    top: 9px;
+   left: 10px;
+    font-size: 1.0rem;
+    color: #6C6C6C;
+    font-weight: bold;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.voltar p{
+    position: relative;
+    top: 9px;
+    font-size: 1.0rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-style: normal;
+    line-height: 24px;
+    
+}
+}

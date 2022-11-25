@@ -1,0 +1,252 @@
+@media only screen and (max-width: 600px)
+{
+    /*fonts*/@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+     /*fonts*/@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@300&display=swap');
+
+
+
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url("./img/fundodohome.jpg");
+}
+
+.header{
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    background: linear-gradient(to right, rgba(58,123,141,0.99) 0%, rgba(58,123,141,1) 0%, rgba(21,52,76,1) 98%);
+    position: fixed;
+    z-index: 2;
+    
+}
+.botaologin
+    {
+        height: 40px;
+        width: 110px;
+        background-color: #182e5f;
+        position: relative;
+        left: 15px;
+        top: 60px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .botaologin p{
+        position: relative;
+    
+      
+        font-size: 1.2rem;
+        color: #ffffff;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+        
+        
+    }
+    
+
+
+
+#logo img{
+    left: 500px;
+    height: 150px;
+}
+
+#logo{
+    width: 30vw;
+    height: 200px;
+    left: 400px;
+ 
+}
+
+
+.botaodestino
+    {
+        height: 40px;
+        width: 110px;
+        background-color: #182e5f;
+        position: relative;
+        left: 25px;
+        top: 60px;
+        border-radius: 5px;
+        justify-content: center;
+        
+    }
+    .botaodestino p{
+        position: relative;
+        top: px;
+      
+        font-size: 1.3rem;
+        color: #ffffff;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-style: normal;
+      
+        line-height: 24px;
+        
+        
+    }
+    .botaogrupo{
+        height: 40px;
+        width: 110px;
+        background-color: #182e5f;
+        
+        position: relative;
+        left: 35px;
+        top: 60px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .botaogrupo p{
+        position: relative;
+       
+      
+        font-size: 1.2rem;
+        color: #ffffff;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-style: normal;
+       
+        line-height: 24px;
+    }
+
+   input{
+    background-color: #ffffff;
+   }
+   
+    a{
+        text-decoration: none;
+        
+    }
+  
+    
+   hr{
+    color: rgb(255, 255, 255);
+    width: 100%;
+   height: 55px;
+   }
+
+   #segundo{
+    width: 100%;
+    top: 140px;
+    height: 70px;
+    background: linear-gradient(to right, rgba(58,123,141,0.99) 0%, rgba(58,123,141,1) 0%, rgba(21,52,76,1) 98%);
+    display: flex;
+    position: fixed;
+    z-index: 2;
+   }
+   
+   .btn{
+    height: 40px;
+        width: 28vw;
+        background-color: #182e5f;
+        
+        position: relative;
+        left: 17px;
+        top: 20px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .btn h1{
+        position: relative;
+        font-size: 1.1rem;
+        color: #ffffff;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-style: normal;
+       
+        line-height: 24px;
+   }
+
+   .btn2{
+    height: 40px;
+    width: 28vw;
+        background-color: #182e5f;
+        position: relative;
+        left: 40px;
+        top: 20px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .btn2 h1{
+        position: relative;
+        font-size: 1.1rem;
+        color: #ffffff;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-style: normal;
+       
+        line-height: 24px;
+   }
+   
+   .btn3{
+    height: 40px;
+    width: 28vw;
+        background-color: #182e5f;
+        position: relative;
+        left: 60px;
+        top: 20px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .btn3 h1{
+        position: relative;
+        font-size: 1.1rem;
+        color: #ffffff;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-style: normal;
+       
+        line-height: 24px;
+   }
+
+   
+
+  
+
+  #porperto{
+    width: 80vw;
+    height: 200px;
+}
+
+#porperto img{
+    width: 75vw;
+    height: 400px;
+    margin-left: 70px;
+   padding-top: 40px;
+   
+}
+
+
+
+#pessoasaqui p{
+   
+    font-size: 1.5rem;
+margin-left: 160px;
+   margin-top: 210px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+}

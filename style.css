@@ -1,0 +1,241 @@
+@media only screen and (max-width: 600px)
+{
+    /*fonts*/@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+     /*fonts*/@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@300&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url("./img/fundo.jpg");
+    }
+    .header{
+        height: 100px;
+        width: 100vw;
+        display: flex;
+    }
+
+    #logo{
+        width: 30vw;
+        height: 200px;
+        left: 200px;
+    }
+
+    #textlogo{
+        width: 40vw;
+   
+        padding-top: 50px;
+        font-family: 'Play', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+ 
+        
+    }
+    
+
+
+    #google
+    {
+        height: 40px;
+        width: 60%;
+        background-color: #ECECEC;
+        position: relative;
+        left: 80px;
+        top: 85px;
+        border-radius: 5px;
+        justify-content: center;
+       
+    }
+
+    #imggoogle img
+    {
+        width: 30px;
+        position: relative;
+        top: 5px;
+        left: 10px;
+    }
+
+    #textogoogle
+    {
+        position: relative;
+        bottom: 27px;
+        padding-left: 60px;
+        font-size: 1.1rem;
+        color: #000000;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+       right: 10px;
+        line-height: 24px;
+        font-weight: bold;
+       
+    }
+    #facebook
+    {
+        height: 40px;
+        width: 60%;
+        background-color: #3B5998;
+        position: relative;
+        font-family: 'Play', sans-serif;
+        left: 85px;
+        top: 110px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+
+    #imgface img{
+        width: 30px;
+        position: relative;
+        top: 5px;
+        left: 10px;
+    }
+
+    #textoface{
+        position: relative;
+        bottom: 27px;
+        padding-left: 60px;
+        font-size: 1.1rem;
+        color: #000000;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+       right: 10px;
+        line-height: 24px;
+        font-weight: bold;
+       
+    }
+    .email
+    {
+        height: 40px;
+        width: 60%;
+        background-color: #ffffff;
+        position: relative;
+        left: 85px;
+        top: 170px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .textologin{
+        position: relative;
+        top: 9px;
+       left: 10px;
+        font-size: 1.2rem;
+        color: #6C6C6C;
+       
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+
+    .senha
+    {
+        height: 40px;
+        width: 60%;
+        background-color: #ffffff;
+        position: relative;
+        left: 85px;
+        top: 200px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .textosenha{
+        position: relative;
+        top: 9px;
+       left: 10px;
+        font-size: 1.2rem;
+        color: #6C6C6C;
+        font-weight: bold;
+       
+    font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .esqueci
+    {
+        height: 40px;
+        width: 40%;
+        background-color: #D9D9D9;
+        position: relative;
+        left: 185px;
+        top: 225px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .esquecisenha{
+        position: relative;
+        top: 9px;
+       left: 5px;
+        font-size: 1.2rem;
+        color: #6C6C6C;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+
+    .botaologin
+    {
+        height: 40px;
+        width: 60%;
+        background-color: #042138;
+        position: relative;
+        left: 85px;
+        top: 260px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .botaologin p{
+        position: relative;
+        top: 9px;
+      
+        font-size: 1.2rem;
+        color: #ffffff;
+      text-align: center;
+      font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+        
+        
+    }
+    
+    a{
+       text-decoration: none;
+    }
+    
+    .botaocadastro
+    {
+        height: 50px;
+        width: 60%;
+        background-color: #999999;
+        position: relative;
+        left: 85px;
+        top: 300px;
+        border-radius: 5px;
+        
+    }
+    .botaocadastro p
+    {
+        position: relative;
+        top: 9px;
+       text-align: center;
+        font-size: 1.2rem;
+        color: #000000;
+      font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+        
+        
+    }
+}
